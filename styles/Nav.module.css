@@ -1,0 +1,17 @@
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+.navLeft, .navRight {
+    flex: 1;
+}
+
+.navRight {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 3rem
+}

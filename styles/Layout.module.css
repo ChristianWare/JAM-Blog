@@ -1,0 +1,8 @@
+.layout {
+    z-index: 1000;
+    max-width: 1400px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 50px;
+    padding-left: 50px;
+}
