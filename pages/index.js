@@ -1,11 +1,12 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
+import BlogPreviewList from "../comps/blog/BlogPreviewList";
 
 export default function Home() {
   return (
     <>
       <h1>JAM Blog</h1>
+      <br />
+      <br />
+      <BlogPreviewList />
     </>
-  )
+  );
 }
